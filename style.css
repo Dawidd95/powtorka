@@ -1,0 +1,62 @@
+html {
+  font-size: 20px;
+  font-family: sans-serif; }
+
+li {
+  line-height: 160%;
+  padding: 20px 10px;
+  cursor: pointer; }
+
+li:nth-child(even) {
+  background-color: #ccc; }
+
+li:nth-child(odd) {
+  background-color: #eee; }
+
+/* ---------------------------------------------------------------  */
+.app__header {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Quicksand';
+  color: #dad; }
+
+.app__confirm {
+  height: 30px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+  .app__confirm input {
+    margin-right: 10px; }
+
+.app__cart {
+  width: 400px;
+  height: 100%;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.cart__button {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  background-color: #e6e6e6;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer; }
+  .cart__button:disabled {
+    background-color: white;
+    border-color: silver;
+    color: silver; }
+
+.cart__amount {
+  margin: 0 10px 0 10px;
+  font-size: 30px; }
+
+.cart__information {
+  width: 400px;
+  margin-top: 20px; }
+
+/*# sourceMappingURL=style.css.map */
